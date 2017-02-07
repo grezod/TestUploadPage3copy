@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Android\GitHubDownLoadProject\TestUploadPage3\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="aee64634871d88a419d59eb743c1258a60f19700">
+        <dex dex="C:\Android\GitHubDownLoadProject\TestUploadPage3\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-25.1.0_a4e68d137f889385e926902f67813b8d0f95369c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Android\GitHubDownLoadProject\TestUploadPage3\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f02263e35e52668dd17b73bf961437e3d562b35f">
+        <dex dex="C:\Android\GitHubDownLoadProject\TestUploadPage3\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-25.1.0_123d5738aefc74f91d60de756d9c6fa7307371f0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\poloi\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.2.0\f7873a2ebde246a45c2a8d6f3247108b4c88a879\okhttp-3.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f7873a2ebde246a45c2a8d6f3247108b4c88a879">
+        <dex dex="C:\Android\GitHubDownLoadProject\TestUploadPage3\app\build\intermediates\transforms\dex\debug\folders\1000\10\okhttp-3.2.0_ce7c1d261598f3cd6d54ee226dad83f646dced0b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\poloi\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.6.0\98476622f10715998eacf9240d6b479f12c66143\okio-1.6.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="98476622f10715998eacf9240d6b479f12c66143">
+        <dex dex="C:\Android\GitHubDownLoadProject\TestUploadPage3\app\build\intermediates\transforms\dex\debug\folders\1000\10\okio-1.6.0_99ef6b751060b4cdae204a50a90196cefbf28786\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\poloi\Desktop\TestUploadPage3copy\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0a0ef86b7fa568a52bf6214a0326ca1f1d618da7">
+        <dex dex="C:\Users\poloi\Desktop\TestUploadPage3copy\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-25.1.0_c117ba952a009929cc19d99b64fe5c5a76ebe8a2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\poloi\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\25.1.0\support-annotations-25.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="64cb6b229a8bdfd907bc8dd46839a0053e4c018d">
+        <dex dex="C:\Android\GitHubDownLoadProject\TestUploadPage3\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.1.0_e3b9aaa5e161b0dd869631a9de9675d866f5ad6f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Android\GitHubDownLoadProject\TestUploadPage3\app\build\intermediates\exploded-aar\com.android.support\design\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="30103d98fa5ed824b54af839c85e2111f9bde8ec">
+        <dex dex="C:\Android\GitHubDownLoadProject\TestUploadPage3\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-25.1.0_cce49efc233923c7cbab9b49560337e39c979138\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Android\GitHubDownLoadProject\TestUploadPage3\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Android\GitHubDownLoadProject\TestUploadPage3\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-25.1.0_3a324e2ba39b784397a82551508a2a2d43230661\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Android\GitHubDownLoadProject\TestUploadPage3\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ca3c7aa31e2726a400a6e552b93cb9f63c9a1e6d">
+        <dex dex="C:\Android\GitHubDownLoadProject\TestUploadPage3\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-25.1.0_022874853d11c3c628f6a4b9cc3b31ead3b0b3d2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\poloi\Desktop\TestUploadPage3copy\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\poloi\Desktop\TestUploadPage3copy\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-25.1.0_feef79823c3c6fdbf8f87faeafa308febaf03db4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\poloi\Desktop\TestUploadPage3copy\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="193406a4f2ac21ba754d9fa041cff5fcda9e53fd">
+        <dex dex="C:\Users\poloi\Desktop\TestUploadPage3copy\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_b397cb70814cf8af3ddce4c63a07c623a1b80cce\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Android\GitHubDownLoadProject\TestUploadPage3\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0a0ef86b7fa568a52bf6214a0326ca1f1d618da7">
+        <dex dex="C:\Android\GitHubDownLoadProject\TestUploadPage3\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-25.1.0_e86983fccd21e75aa34b03dfc70dd2a2783f8f03\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Android\GitHubDownLoadProject\TestUploadPage3\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e79aa3d9a16f8c9f16377c0608de70a8f31e5d80">
+        <dex dex="C:\Android\GitHubDownLoadProject\TestUploadPage3\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-25.1.0_1a7d68aa86dedf212a7c14e2bbb7cadd8ebf157a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Android\GitHubDownLoadProject\TestUploadPage3\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a7c666781c464d0c32795f6d556898e3464ba6b8">
+        <dex dex="C:\Android\GitHubDownLoadProject\TestUploadPage3\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_d9018413cf32a8db43875c930ace8e4bace5dc82\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\poloi\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.6.2\f1bc476cc167b18e66c297df599b2377131a8947\gson-2.6.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f1bc476cc167b18e66c297df599b2377131a8947">
+        <dex dex="C:\Android\GitHubDownLoadProject\TestUploadPage3\app\build\intermediates\transforms\dex\debug\folders\1000\10\gson-2.6.2_6471d6a60a87ca3e3121c3c2ce8b92c9194067e0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Android\GitHubDownLoadProject\TestUploadPage3\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6fb6ac3e8d3b9013819920d9ea11f3803c4c0033">
+        <dex dex="C:\Android\GitHubDownLoadProject\TestUploadPage3\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-25.1.0_15ba074418bb8ee36f0b594667c2e52cac1f35ee\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\poloi\Desktop\TestUploadPage3copy\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f02263e35e52668dd17b73bf961437e3d562b35f">
+        <dex dex="C:\Users\poloi\Desktop\TestUploadPage3copy\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-25.1.0_8474cab4a4561d0f0114dfd91c49e64bd10a6cd9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Android\GitHubDownLoadProject\TestUploadPage3\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b266c8faa5af72e579b9da36ef35053ffed6ac64">
+        <dex dex="C:\Android\GitHubDownLoadProject\TestUploadPage3\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-25.1.0_23be924a91c4bd2565afe38695d42d05141f6276\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\poloi\Desktop\TestUploadPage3copy\app\build\intermediates\exploded-aar\com.android.support\transition\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d38084015027549951cbaea5d5f6fb795cc81151">
+        <dex dex="C:\Users\poloi\Desktop\TestUploadPage3copy\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-transition-25.1.0_889628e8d7ab6b68605b2013fb59348d58bade44\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Android\GitHubDownLoadProject\TestUploadPage3\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e9d8c9c7b3e25448601c93682104d37baa12b327">
+        <dex dex="C:\Android\GitHubDownLoadProject\TestUploadPage3\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_c0c22c078de73e949a00bae7f0e2e433aeff0f05\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\poloi\Desktop\TestUploadPage3copy\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6fb6ac3e8d3b9013819920d9ea11f3803c4c0033">
+        <dex dex="C:\Users\poloi\Desktop\TestUploadPage3copy\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-25.1.0_12ca5136e64733504f2c3f78a967a17c2b6b2c7e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\poloi\Desktop\TestUploadPage3copy\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e79aa3d9a16f8c9f16377c0608de70a8f31e5d80">
+        <dex dex="C:\Users\poloi\Desktop\TestUploadPage3copy\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-25.1.0_29e9919b9c7de2cafa40cf876b31705d88105628\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\poloi\Desktop\TestUploadPage3copy\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2a53c4f3518116b8c6aee0e477233f0f7da8616f">
+        <dex dex="C:\Users\poloi\Desktop\TestUploadPage3copy\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-25.1.0_8bc92b9b81e9cf1e82c4e94aae4cf140cb79895f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\poloi\Desktop\TestUploadPage3copy\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a62c31b3118e461ceb6552e28b2020fa20dd2965">
+        <dex dex="C:\Users\poloi\Desktop\TestUploadPage3copy\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_5acdb751bff8332b47337722b7d3541e7d249e4b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Android\GitHubDownLoadProject\TestUploadPage3\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1630658fbc2d222b988603c27b4a4249586fbfe7">
+        <dex dex="C:\Android\GitHubDownLoadProject\TestUploadPage3\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-25.1.0_78a50503f23dcc2f8219357a01d2f5bd113f5523\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\poloi\.gradle\caches\modules-2\files-2.1\com.loopj.android\android-async-http\1.4.9\386a4339ffe52d5d63e80f9bed8d2b1d1a418249\android-async-http-1.4.9.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="386a4339ffe52d5d63e80f9bed8d2b1d1a418249">
+        <dex dex="C:\Android\GitHubDownLoadProject\TestUploadPage3\app\build\intermediates\transforms\dex\debug\folders\1000\10\android-async-http-1.4.9_72b0c28a76b396411430dc92841f3f664fe422c4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\poloi\.gradle\caches\modules-2\files-2.1\cz.msebera.android\httpclient\4.3.6\526a9f794eab830eae4f23a62c572878b3f491ab\httpclient-4.3.6.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="526a9f794eab830eae4f23a62c572878b3f491ab">
+        <dex dex="C:\Android\GitHubDownLoadProject\TestUploadPage3\app\build\intermediates\transforms\dex\debug\folders\1000\10\httpclient-4.3.6_9be58d86b273c5146f1ad557041d126d21c039ca\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\poloi\Desktop\TestUploadPage3copy\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1630658fbc2d222b988603c27b4a4249586fbfe7">
+        <dex dex="C:\Users\poloi\Desktop\TestUploadPage3copy\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-25.1.0_05177873101c5e3b04613ea9bbe23656064dd167\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\poloi\Desktop\TestUploadPage3copy\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="aee64634871d88a419d59eb743c1258a60f19700">
+        <dex dex="C:\Users\poloi\Desktop\TestUploadPage3copy\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-25.1.0_251d97a2b1425693ba631188fa829dae7f1dc674\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Android\GitHubDownLoadProject\TestUploadPage3\app\build\intermediates\exploded-aar\com.android.support\transition\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d38084015027549951cbaea5d5f6fb795cc81151">
+        <dex dex="C:\Android\GitHubDownLoadProject\TestUploadPage3\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-transition-25.1.0_245006f3e40035a80b3ab1991ad6ec38755b6116\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\poloi\Desktop\TestUploadPage3copy\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b266c8faa5af72e579b9da36ef35053ffed6ac64">
+        <dex dex="C:\Users\poloi\Desktop\TestUploadPage3copy\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-25.1.0_f97f2a3b2a8562d7349d85591d71260fc0d240a6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Android\GitHubDownLoadProject\TestUploadPage3\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2a53c4f3518116b8c6aee0e477233f0f7da8616f">
+        <dex dex="C:\Android\GitHubDownLoadProject\TestUploadPage3\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-25.1.0_3a29977c8b7137fa9a5df385f6834e58af3a3093\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\poloi\Desktop\TestUploadPage3copy\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ca3c7aa31e2726a400a6e552b93cb9f63c9a1e6d">
+        <dex dex="C:\Users\poloi\Desktop\TestUploadPage3copy\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-25.1.0_7835370c6a3e530929444e230a22f0facbbec0af\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\poloi\Desktop\TestUploadPage3copy\app\build\intermediates\exploded-aar\com.android.support\design\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="30103d98fa5ed824b54af839c85e2111f9bde8ec">
+        <dex dex="C:\Users\poloi\Desktop\TestUploadPage3copy\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-25.1.0_438ec0ff541cf5b7bc9a111b9ae907af5549bd53\classes.dex" />
+    </item>
+
+</items>

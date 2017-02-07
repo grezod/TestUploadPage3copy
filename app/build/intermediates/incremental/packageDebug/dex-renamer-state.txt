@@ -1,0 +1,7 @@
+#Tue Feb 07 17:35:52 CST 2017
+base.0=C\:\\Users\\poloi\\Desktop\\TestUploadPage3copy\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_b397cb70814cf8af3ddce4c63a07c623a1b80cce
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=C\:\\Users\\poloi\\Desktop\\TestUploadPage3copy\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_5acdb751bff8332b47337722b7d3541e7d249e4b\\classes.dex
+base.1=C\:\\Users\\poloi\\Desktop\\TestUploadPage3copy\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_5acdb751bff8332b47337722b7d3541e7d249e4b
+file.0=C\:\\Users\\poloi\\Desktop\\TestUploadPage3copy\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_b397cb70814cf8af3ddce4c63a07c623a1b80cce\\classes.dex
