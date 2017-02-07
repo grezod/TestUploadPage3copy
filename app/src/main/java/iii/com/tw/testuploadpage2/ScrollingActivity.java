@@ -63,8 +63,8 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.Future;
 
-import cz.msebera.android.httpclient.Header;
 //***********
+import cz.msebera.android.httpclient.Header;
 import cz.msebera.android.httpclient.client.HttpClient;
 import cz.msebera.android.httpclient.client.methods.HttpPost;
 import okhttp3.Call;
@@ -131,6 +131,8 @@ public class ScrollingActivity extends AppCompatActivity {
             "桃園縣", "新竹縣", "新竹市", "苗栗縣", "臺中市", "彰化縣",
             "南投縣", "雲林縣", "嘉義縣", "嘉義市", "臺南市", "高雄市",
             "屏東縣", "花蓮縣", "臺東縣", "澎湖縣", "金門縣", "連江縣"};
+    final String[] iv_array_animalGender = {"公","母"};
+    final String[] iv_array_YesOrNO = {"否","是"};
     private ArrayList<String>[] iv_Array_動物品種清單;
     private ArrayList<String> iv_ArrayList_動物類別清單;
 
@@ -536,24 +538,31 @@ public class ScrollingActivity extends AppCompatActivity {
         ArrayAdapter<String> l_ArrayAdapter_spinner_animalArea = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_dropdown_item, area); //selected item will look like a spinner set from XML
         l_ArrayAdapter_spinner_animalArea.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         spinner_animalArea.setAdapter(l_ArrayAdapter_spinner_animalArea);
-
         //**
-
-
+        spinner_animalGender = (Spinner) findViewById(R.id.spinner_animalGender);
+        ArrayAdapter<String> l_ArrayAdapter_spinner_animalGender = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_dropdown_item, iv_array_animalGender); //selected item will look like a spinner set from XML
+        l_ArrayAdapter_spinner_animalGender.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+        spinner_animalGender.setAdapter(l_ArrayAdapter_spinner_animalGender);
         //**
+        spinner_animalBirth = (Spinner) findViewById(R.id.spinner_animalBirth);
+        ArrayAdapter<String> l_ArrayAdapter_spinner_animalBirth = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_dropdown_item, iv_array_YesOrNO); //selected item will look like a spinner set from XML
+        l_ArrayAdapter_spinner_animalBirth.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+        spinner_animalBirth.setAdapter(l_ArrayAdapter_spinner_animalBirth);
+        //**
+        spinner_animalChip = (Spinner) findViewById(R.id.spinner_animalChip);
+        ArrayAdapter<String> l_ArrayAdapter_spinner_animalChip = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_dropdown_item, iv_array_YesOrNO); //selected item will look like a spinner set from XML
+        l_ArrayAdapter_spinner_animalChip.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+        spinner_animalChip.setAdapter(l_ArrayAdapter_spinner_animalChip);
         //**********
 
 
         edTxt_animalAge = (EditText) findViewById(R.id.edTxt_animalAge);
-        edTxt_animalBirth = (EditText) findViewById(R.id.edTxt_animalBirth);
-        edTxt_animalChip = (EditText) findViewById(R.id.edTxt_animalChip);
         edTxt_animalColor = (EditText) findViewById(R.id.edTxt_animalColor);
         //
         edTxt_animalDate = (EditText) findViewById(R.id.edTxt_animalDate);
         edTxt_animalDate.setText(create取得現在時間字串());
         //
         edTxt_animalDisease_Other = (EditText) findViewById(R.id.edTxt_animalDisease_Other);
-        edTxt_animalGender = (EditText) findViewById(R.id.edTxt_animalGender);
         edTxt_animalHealthy = (EditText) findViewById(R.id.edTxt_animalHealthy);
         edTxt_animalName = (EditText) findViewById(R.id.edTxt_animalName);
         edTxt_animalNote = (EditText) findViewById(R.id.edTxt_animalNote);
@@ -588,8 +597,7 @@ public class ScrollingActivity extends AppCompatActivity {
         //*********
         p_string_未填寫的欄位有哪些 += edTxt_animalName.getText().toString().isEmpty() ? "寵物姓名\n" : "";
         p_string_未填寫的欄位有哪些 += edTxt_animalAge.getText().toString().isEmpty() ? "寵物年齡\n" : "";
-        p_string_未填寫的欄位有哪些 += edTxt_animalGender.getText().toString().isEmpty() ? "性別\n" : "";
-        p_string_未填寫的欄位有哪些 += edTxt_animalChip.getText().toString().isEmpty() ? "是否植入晶片\n" : "";
+        //p_string_未填寫的欄位有哪些 += edTxt_animalChip.getText().toString().isEmpty() ? "是否植入晶片\n" : "";
         p_string_未填寫的欄位有哪些 += edTxt_animalHealthy.getText().toString().isEmpty() ? "健康狀態\n" : "";
         p_string_未填寫的欄位有哪些 += spinner_animalArea.getSelectedItem().toString().equals("全部") ? "未選縣市\n" : "";
         p_string_未填寫的欄位有哪些 += edTxt_animalColor.getText().toString().isEmpty() ? "毛色\n" : "";
@@ -615,12 +623,12 @@ public class ScrollingActivity extends AppCompatActivity {
         l_PetData_PetObj.setAnimalAge(edTxt_animalAge.getText().toString());
         l_PetData_PetObj.setAnimalKind(spinner_animalKind.getSelectedItem().toString());
         l_PetData_PetObj.setAnimalType(spinner_animalType.getSelectedItem().toString());
-        l_PetData_PetObj.setAnimalBirth(edTxt_animalBirth.getText().toString());
-        l_PetData_PetObj.setAnimalChip(edTxt_animalChip.getText().toString());
+        l_PetData_PetObj.setAnimalBirth(spinner_animalBirth.getSelectedItem().toString());
+        l_PetData_PetObj.setAnimalChip(spinner_animalChip.getSelectedItem().toString());
         l_PetData_PetObj.setAnimalColor(edTxt_animalColor.getText().toString());
         l_PetData_PetObj.setAnimalDate(edTxt_animalDate.getText().toString());
         l_PetData_PetObj.setAnimalDisease_Other(edTxt_animalDisease_Other.getText().toString());
-        l_PetData_PetObj.setAnimalGender(edTxt_animalGender.getText().toString());
+        l_PetData_PetObj.setAnimalGender(spinner_animalGender.getSelectedItem().toString());
         l_PetData_PetObj.setAnimalHealthy(edTxt_animalHealthy.getText().toString());
         l_PetData_PetObj.setAnimalName(edTxt_animalName.getText().toString());
         l_PetData_PetObj.setAnimalNote(edTxt_animalNote.getText().toString());
@@ -869,6 +877,9 @@ public class ScrollingActivity extends AppCompatActivity {
     Spinner spinner_animalArea;
     Spinner spinner_animalKind;
     Spinner spinner_animalType;
+    Spinner spinner_animalGender;
+    Spinner spinner_animalChip;
+    Spinner spinner_animalBirth;
     //*******
 
 

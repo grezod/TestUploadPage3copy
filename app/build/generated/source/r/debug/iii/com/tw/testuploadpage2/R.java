@@ -2720,12 +2720,9 @@ containing a value of this type.
         public static final int design_navigation_view=0x7f0d009c;
         public static final int disableHome=0x7f0d0012;
         public static final int edTxt_animalAge=0x7f0d0087;
-        public static final int edTxt_animalBirth=0x7f0d0089;
-        public static final int edTxt_animalChip=0x7f0d008a;
         public static final int edTxt_animalColor=0x7f0d0088;
         public static final int edTxt_animalDate=0x7f0d0085;
         public static final int edTxt_animalDisease_Other=0x7f0d008c;
-        public static final int edTxt_animalGender=0x7f0d0086;
         public static final int edTxt_animalHealthy=0x7f0d008b;
         public static final int edTxt_animalName=0x7f0d0083;
         public static final int edTxt_animalNote=0x7f0d008e;
@@ -2818,6 +2815,9 @@ containing a value of this type.
         public static final int snap=0x7f0d001d;
         public static final int spacer=0x7f0d004c;
         public static final int spinner_animalArea=0x7f0d0084;
+        public static final int spinner_animalBirth=0x7f0d0089;
+        public static final int spinner_animalChip=0x7f0d008a;
+        public static final int spinner_animalGender=0x7f0d0086;
         public static final int spinner_animalKind=0x7f0d0081;
         public static final int spinner_animalType=0x7f0d0082;
         public static final int split_action_bar=0x7f0d0008;

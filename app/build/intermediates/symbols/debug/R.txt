@@ -742,12 +742,9 @@ int id design_menu_item_text 0x7f0d009d
 int id design_navigation_view 0x7f0d009c
 int id disableHome 0x7f0d0012
 int id edTxt_animalAge 0x7f0d0087
-int id edTxt_animalBirth 0x7f0d0089
-int id edTxt_animalChip 0x7f0d008a
 int id edTxt_animalColor 0x7f0d0088
 int id edTxt_animalDate 0x7f0d0085
 int id edTxt_animalDisease_Other 0x7f0d008c
-int id edTxt_animalGender 0x7f0d0086
 int id edTxt_animalHealthy 0x7f0d008b
 int id edTxt_animalName 0x7f0d0083
 int id edTxt_animalNote 0x7f0d008e
@@ -840,6 +837,9 @@ int id snackbar_text 0x7f0d0099
 int id snap 0x7f0d001d
 int id spacer 0x7f0d004c
 int id spinner_animalArea 0x7f0d0084
+int id spinner_animalBirth 0x7f0d0089
+int id spinner_animalChip 0x7f0d008a
+int id spinner_animalGender 0x7f0d0086
 int id spinner_animalKind 0x7f0d0081
 int id spinner_animalType 0x7f0d0082
 int id split_action_bar 0x7f0d0008

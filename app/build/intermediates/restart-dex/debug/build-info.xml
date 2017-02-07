@@ -5,26 +5,26 @@
     density="xxhdpi"
     format="8"
     plugin-version="2.2.3"
-    timestamp="80920055383101"
+    timestamp="88716782098615"
     token="3930441679573333695"
-    verifier="METHOD_ADDED" >
+    verifier="COMPATIBLE" >
 
     <task
         name="javac"
-        duration="788" />
+        duration="659" />
     <task
         name="instant-run-dex"
-        duration="0" />
+        duration="30" />
     <task
         name="instant-run-transform"
-        duration="100" />
+        duration="57" />
     <task
         name="verifier"
-        duration="28" />
+        duration="13" />
 
     <artifact
-        location="C:\Users\poloi\Desktop\TestUploadPage3copy\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_5\classes.dex"
-        type="DEX" />
+        location="C:\Users\poloi\Desktop\TestUploadPage3copy\app\build\intermediates\reload-dex\debug\classes.dex"
+        type="RELOAD_DEX" />
 
     <build
         timestamp="80589613779095"
@@ -34,11 +34,21 @@
             type="MAIN" />
     </build>
     <build
-        timestamp="80920055383101"
-        verifier="METHOD_ADDED" >
+        timestamp="88643538160243"
+        verifier="FIELD_ADDED" >
+        <artifact
+            location="C:\Users\poloi\Desktop\TestUploadPage3copy\app\build\intermediates\instant-run-resources\resources-debug.ir.ap_"
+            type="RESOURCES" />
         <artifact
             location="C:\Users\poloi\Desktop\TestUploadPage3copy\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_5\classes.dex"
             type="DEX" />
+    </build>
+    <build
+        timestamp="88716782098615"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="C:\Users\poloi\Desktop\TestUploadPage3copy\app\build\intermediates\reload-dex\debug\classes.dex"
+            type="RELOAD_DEX" />
     </build>
 
 </instant-run>

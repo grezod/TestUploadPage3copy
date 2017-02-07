@@ -85,12 +85,11 @@
             android:layout_marginLeft="10dp"
             android:textSize="23dp"
             android:text="性別" />
-        <EditText
+        <Spinner
             android:layout_weight="1"
-            android:id="@+id/edTxt_animalGender"
-            android:layout_marginLeft="10dp"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:id="@+id/spinner_animalGender"/>
         <TextView
             android:layout_weight="1"
             android:layout_width="wrap_content"
@@ -124,12 +123,11 @@
             android:layout_marginLeft="10dp"
             android:textSize="23dp"
             android:text="是否結紮" />
-        <EditText
+        <Spinner
             android:layout_weight="1"
-            android:id="@+id/edTxt_animalBirth"
-            android:layout_marginLeft="10dp"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:id="@+id/spinner_animalBirth"/>
         <TextView
             android:layout_weight="1"
             android:layout_width="wrap_content"
@@ -137,12 +135,11 @@
             android:layout_marginLeft="10dp"
             android:textSize="23dp"
             android:text="是否植入晶片" />
-        <EditText
+        <Spinner
             android:layout_weight="1"
-            android:id="@+id/edTxt_animalChip"
-            android:layout_marginLeft="10dp"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:id="@+id/spinner_animalChip"/>
         <TextView
             android:layout_weight="1"
             android:layout_width="wrap_content"
