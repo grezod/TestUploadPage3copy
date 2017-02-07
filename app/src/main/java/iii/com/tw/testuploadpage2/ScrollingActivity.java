@@ -16,7 +16,6 @@ import android.support.v4.app.ActivityCompat;
 import static android.Manifest.permission.*;
 import static android.icu.lang.UCharacter.GraphemeClusterBreak.L;
 import static android.webkit.ConsoleMessage.MessageLevel.LOG;
-import static iii.com.tw.testuploadpage2.R.id.edTxt_animalAddress;
 import static iii.com.tw.testuploadpage2.R.id.edTxt_animalAge;
 import static iii.com.tw.testuploadpage2.R.id.spinner_animalArea;
 import static iii.com.tw.testuploadpage2.R.id.spinner_animalKind;
@@ -544,12 +543,15 @@ public class ScrollingActivity extends AppCompatActivity {
         //**
         //**********
 
-        edTxt_animalAddress = (EditText) findViewById(R.id.edTxt_animalAddress);
+
         edTxt_animalAge = (EditText) findViewById(R.id.edTxt_animalAge);
         edTxt_animalBirth = (EditText) findViewById(R.id.edTxt_animalBirth);
         edTxt_animalChip = (EditText) findViewById(R.id.edTxt_animalChip);
         edTxt_animalColor = (EditText) findViewById(R.id.edTxt_animalColor);
+        //
         edTxt_animalDate = (EditText) findViewById(R.id.edTxt_animalDate);
+        edTxt_animalDate.setText(create取得現在時間字串());
+        //
         edTxt_animalDisease_Other = (EditText) findViewById(R.id.edTxt_animalDisease_Other);
         edTxt_animalGender = (EditText) findViewById(R.id.edTxt_animalGender);
         edTxt_animalHealthy = (EditText) findViewById(R.id.edTxt_animalHealthy);
@@ -590,7 +592,6 @@ public class ScrollingActivity extends AppCompatActivity {
         p_string_未填寫的欄位有哪些 += edTxt_animalChip.getText().toString().isEmpty() ? "是否植入晶片\n" : "";
         p_string_未填寫的欄位有哪些 += edTxt_animalHealthy.getText().toString().isEmpty() ? "健康狀態\n" : "";
         p_string_未填寫的欄位有哪些 += spinner_animalArea.getSelectedItem().toString().equals("全部") ? "未選縣市\n" : "";
-        p_string_未填寫的欄位有哪些 += edTxt_animalAddress.getText().toString().isEmpty() ? "詳細地址\n" : "";
         p_string_未填寫的欄位有哪些 += edTxt_animalColor.getText().toString().isEmpty() ? "毛色\n" : "";
         p_string_未填寫的欄位有哪些 += edTxt_animalDate.getText().toString().isEmpty() ? "送養日期\n" : "";
         p_string_未填寫的欄位有哪些 += edTxt_animalReason.getText().toString().isEmpty() ? "送養理由\n" : "";
@@ -610,7 +611,7 @@ public class ScrollingActivity extends AppCompatActivity {
         iv_ArrayList_object_ConditionOfAdoptPet.add(iv_object_conditionOfAdoptPet_a);
         //*********
         object_petDataForSelfDB l_PetData_PetObj = new object_petDataForSelfDB();
-        l_PetData_PetObj.setAnimalAddress(spinner_animalArea.getSelectedItem().toString() + edTxt_animalAddress.getText().toString());
+        l_PetData_PetObj.setAnimalAddress(spinner_animalArea.getSelectedItem().toString());
         l_PetData_PetObj.setAnimalAge(edTxt_animalAge.getText().toString());
         l_PetData_PetObj.setAnimalKind(spinner_animalKind.getSelectedItem().toString());
         l_PetData_PetObj.setAnimalType(spinner_animalType.getSelectedItem().toString());
@@ -724,50 +725,13 @@ public class ScrollingActivity extends AppCompatActivity {
 
     }
 
-    private void imgurUpload(final String image) { //插入圖片
-        SimpleDateFormat sdFormat = new SimpleDateFormat("yyyy/MM/dd hh:mm:ss");
-        Date date = new Date();
-        String strDate = sdFormat.format(date);
-        //String urlString = "https://imgur-apiv3.p.mashape.com/3/image/";
-        String urlString = "https://imgur-apiv3.p.mashape.com/3/image";
-        String mashapeKey = ""; //設定自己的 Mashape Key
-        String clientId = ""; //設定自己的 Clinet ID
-        String titleString = "GetPet" + strDate; //設定圖片的標題
 
+    public String create取得現在時間字串(){
 
-        AsyncHttpClient client0 = new AsyncHttpClient();
-        client0.addHeader("X-Mashape-Key", mashapeKey);
-        client0.addHeader("Authorization", "Client-ID " + clientId);
-        client0.addHeader("Content-Type", "application/x-www-form-urlencoded");
-
-        RequestParams params = new RequestParams();
-        params.put("title", titleString);
-        params.put("image", image);
-
-        client0.post(urlString, params, new JsonHttpResponseHandler() {
-            @Override
-            public void onSuccess(int statusCode, Header[] headers, JSONObject response) {
-
-                if (!response.optBoolean("success") || !response.has("data")) {
-                    Log.d("editor", "response: " + response.toString());
-                    Toast.makeText(ScrollingActivity.this, "fail", Toast.LENGTH_SHORT).show();
-                    return;
-                }
-
-                JSONObject data = response.optJSONObject("data");
-                String link = data.optString("link", "");
-                int width = data.optInt("width", 0);
-                int height = data.optInt("height", 0);
-                //**
-                object_OfPictureImgurSite l_object_OfPictureImgurSite = new object_OfPictureImgurSite(data.optString("link"));
-                iv_ArrayList_object_OfPictureImgurSite.add(l_object_OfPictureImgurSite);
-            }
-
-            @Override
-            public void onFailure(int statusCode, Header[] headers, Throwable e, JSONObject error) {
-            }
-        });
-
+            SimpleDateFormat sdFormat = new SimpleDateFormat("yyyy/MM/dd hh:mm");
+            Date date = new Date();
+            String strDate = sdFormat.format(date);
+            return strDate;
     }
 
     private String transBitmapToStream(Bitmap myBitmap) {
